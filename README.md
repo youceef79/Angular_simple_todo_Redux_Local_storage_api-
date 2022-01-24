@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
 
+![image](https://user-images.githubusercontent.com/47604307/150788453-0bef8354-7e97-49d7-b1ce-4834497c91bf.png)
+
 ![image](https://user-images.githubusercontent.com/47604307/150787951-126f43ab-728d-4398-9ea1-cd0542e641f0.png)
 
 ![image](https://user-images.githubusercontent.com/47604307/150787954-ab289bdd-4f4d-435e-b3cc-bc86234e1687.png)
