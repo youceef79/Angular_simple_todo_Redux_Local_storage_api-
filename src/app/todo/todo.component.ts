@@ -29,29 +29,29 @@ export class TodoComponent implements OnInit {
 
   constructor(private store: Store<State>) {  
    this.initFilter();
-   var filternotes;
-   this.store.select(s => s.filter_notes).forEach((e) => filternotes = e);
   }
   
   initFilter() {
     var notes: Array<NoteItem>;
-     this.store.select((store) => store.notes ).forEach(
+    this.store.select((store) => store.notes ).forEach(
        (s) => notes = s);
     this.store.dispatch(new InitAction(notes));
   } 
   
   ngOnInit() {
-    TodoService.getInstance();
-    this.todoList = TodoService.getAll();
-    this.name = TodoService.username;
+    //TodoService.getInstance();
+    //this.todoList = TodoService.getAll();
+    //this.name = TodoService.username;
     var filternotes;
     this.store.select(s => s.filter_notes).forEach((e) => filternotes = e);
-    console.log("filter " + filternotes);
+    console.log("filter ngoninit" + filternotes);
+    /*
     if(filternotes.length>=0){
       this.noteItems$ = this.store.select(s => s.filter_notes);
     } else {
       this.noteItems$ = this.store.select(s => s.notes);
-    }
+    } */
+    this.noteItems$ = this.store.select(s => s.filter_notes);
     this.user$ = this.store.select(s => s.user);
     this.id = 0;
   }
@@ -75,10 +75,10 @@ export class TodoComponent implements OnInit {
      //NoteReducer(, new AddItemAction(noteItem));
      console.log("var : ", itemContent.value);
      itemTitle.value = null;
-     itemContent.value=null;
+     itemContent.value = null;
      //this.locStorage.setItem("notes", this.noteItems$).subscribe(()=>{});
   }
-
+       
   onDelete(note){
       //TodoService.removeFromlist(key);
       //this.noteItems$ = this.store.select(s => s != note );
@@ -102,7 +102,6 @@ export class TodoComponent implements OnInit {
         isDone: false
    }
    this.store.dispatch(new ItemUpdateAction(note));
-   //this.store.dispatch(new SetEmtyFilterAction());
    this.initFilter();
    this.itemClicked = null;
  }

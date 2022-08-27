@@ -26,7 +26,6 @@ export class HomeComponent implements OnInit {
 
   apply(name) {
     TodoService.setName(name.value);
-    console.log("name : "+ TodoService.username);
     var user = { username: name.value };
     this.store.dispatch(new UserAction(user));
  }
