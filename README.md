@@ -1,18 +1,17 @@
-# MyApp
+# Todo App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
 
-![image](https://user-images.githubusercontent.com/47604307/150788453-0bef8354-7e97-49d7-b1ce-4834497c91bf.png)
+![home](https://user-images.githubusercontent.com/47604307/187034437-6461b6dc-de7d-423c-afd0-d0757ff8a288.png)
+_________________________________________________________________________________________________________________
+![todos_home](https://user-images.githubusercontent.com/47604307/187034439-ddf8d6b0-86d9-4096-8a57-419dbc9ee16a.png)
+_________________________________________________________________________________________________________________
+![all_todos](https://user-images.githubusercontent.com/47604307/187034434-3fa2c60b-c2ea-4cf0-b311-60471fdac9cc.png)
+_________________________________________________________________________________________________________________
+![search](https://user-images.githubusercontent.com/47604307/187034438-88ef54da-06bd-42d1-9280-a6969b8f7a69.png)
+_________________________________________________________________________________________________________________
+![update](https://user-images.githubusercontent.com/47604307/187034441-da68a27d-51d8-43cb-a8e2-21c069f123f8.png)
 
-![image](https://user-images.githubusercontent.com/47604307/150787951-126f43ab-728d-4398-9ea1-cd0542e641f0.png)
-
-![image](https://user-images.githubusercontent.com/47604307/150787954-ab289bdd-4f4d-435e-b3cc-bc86234e1687.png)
-
-![image](https://user-images.githubusercontent.com/47604307/150787957-c28919a7-9b20-44c4-93f2-ec54441d8214.png)
-
-![image](https://user-images.githubusercontent.com/47604307/150787958-d93829f8-3665-44cf-b787-7608136bd568.png)
-
-![image](https://user-images.githubusercontent.com/47604307/150787960-e260c727-aaf1-48d6-8083-e3ea0ec8b453.png)
 
 ## Development server
 
